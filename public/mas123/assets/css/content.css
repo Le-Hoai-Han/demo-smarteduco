@@ -1,0 +1,140 @@
+        .login_content {
+            background-color: #393939;
+        }
+        
+        .content_login_right,
+        .content_register_right {
+            padding: 0px 0px;
+            background-color: #231F20;
+            position: absolute;
+            right: -10px;
+            border-radius: 24px 0px 0px 24px;
+        }
+        
+        form {
+            margin-bottom: 139px;
+            padding: 0px 40px 0px 60px;
+        }
+        
+        .content_login_right h1,
+        .content_register_right h1 {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 0.15px;
+            font-family: Raleway;
+        }
+        
+        .content_login_right input,
+        .content_register_right input {
+            width: 90%;
+            height: 50px;
+            margin-bottom: 8px;
+            border-radius: 8px;
+            background-color: #C4C4C4;
+            padding: 13px 0px 13px 21px;
+            font-family: Raleway;
+            font-size: 14px;
+            letter-spacing: 0.15px;
+            line-height: 24px;
+        }
+        
+        .content_login_right input::placeholder,
+        .content_register_right input::placeholder {
+            color: white;
+            padding-left: 10px;
+        }
+        
+        .content_login_right button,
+        .content_register_right button {
+            background-color: #BE1E2D;
+            color: white;
+            border-radius: 12px;
+            height: 50px;
+            width: 90%;
+            margin-top: 8px;
+        }
+        
+        .content_login_right p {
+            color: white;
+            padding: 0px 20%;
+        }
+        
+        .content_login_right a {
+            color: red;
+        }
+        /* content login */
+        
+        #mxh {
+            border-radius: 48px;
+            width: 40%;
+            height: 48px;
+            background-color: rgba(255, 0, 0, 0);
+            border: solid 1px white;
+            margin-bottom: 24px;
+        }
+        
+        #mxh img {
+            padding-right: 7px;
+        }
+        
+        @media screen and (max-width:990px) {
+            .login_content {
+                background-color: #393939;
+            }
+            .content_login_left {
+                display: none;
+            }
+            .content_login_right {
+                padding: 0px 5%;
+                background-color: #393939;
+            }
+            .content_login_right h1 {
+                color: white;
+                font-size: 24px;
+                font-weight: bold;
+                letter-spacing: 0.15px;
+                font-family: Raleway;
+            }
+            .content_login_right input {
+                width: 90%;
+                height: 50px;
+                margin-bottom: 8px;
+                border-radius: 8px;
+                background-color: #C4C4C4;
+                padding: 13px 0px 13px 21px;
+                font-family: Raleway;
+                font-size: 14px;
+                letter-spacing: 0.15px;
+                line-height: 24px;
+            }
+            .content_login_right button {
+                background-color: #BE1E2D;
+                color: white;
+                border-radius: 12px;
+                height: 50px;
+                width: 90%;
+                margin-top: 8px;
+            }
+            .content_login_right p {
+                color: white;
+                padding: 0px 30%;
+                font-size: 12px;
+                margin-bottom: 93px;
+                text-align: center;
+            }
+            #mxh {
+                border-radius: 48px;
+                width: 40%;
+                height: 48px;
+                background-color: rgba(255, 0, 0, 0);
+                border: solid 1px white;
+                margin-bottom: 24px;
+            }
+            form {
+                margin-bottom: 139px;
+            }
+            .content_register_left {
+                display: none;
+            }
+        }
