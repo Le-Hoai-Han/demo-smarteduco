@@ -95,11 +95,9 @@
                         <li class="dropdown"><a href="#"><span>Khóa học</span> <i class="bi bi-chevron-down"></i></a>
                             <ul>
                                 <li><a href="#"><span>Góc Sáng Tạo 3D Cho Bé (3D Space For Kids)</span></a></li>
-                                <li class="dropdown"><a href="#"><span>Khóa học in 3D</span> <i class="bi bi-chevron-right"></i></a>
+                                <li id="menu2" class="dropdown"><a href="#"><span>Khóa học in 3D</span> <i class="bi bi-chevron-right"></i></a>
                                     <ul>
-                                        <li><a href="#">In 3D Cơ Bản</a></li>
-                                        <li><a href="#">(Fundamentals Of Additive Manufacturing)</a></li>
-
+                                        <li><a href="#">In 3D Cơ Bản<br>(Fundamentals Of Additive Manufacturing)</a></li>
                                         <li><a href="#">In 3D nâng cao (Rapid prototyping and producing)</a></li>
                                     </ul>
                                 </li>
@@ -113,7 +111,6 @@
                         <li><a href="#">Drop Down 4</a></li>
                     </ul>
                     </li>
-                    <li><a class="nav-link scrollto" href="#">Khóa học</a></li>
                     <li><a class="nav-link scrollto" href="#">Doanh nghiệp</a></li>
                     <li><a class="nav-link scrollto " href="#">Trường học</a></li>
                     </ul>

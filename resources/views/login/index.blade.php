@@ -3,6 +3,7 @@
 <div class="row login_content">
     <div class="col-lg-7 col-sm-0 content_login_left"><img src="{{url('log123/img')}}/Saly-1.png"></div>
     <div class="col-lg-5 col-sm-12 content_login_right">
+        
         <form method="post" action="{{route('login.store')}}">
             @csrf
             <h1>Chào mừng bạn quay trở lại</h1>
