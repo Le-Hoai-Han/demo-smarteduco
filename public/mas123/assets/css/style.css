@@ -216,10 +216,6 @@
             transition: all 0.2s ease-out;
         }
         
-        .nav_right .dropdown ul {
-            height: auto;
-        }
-        
         .nav_right .dropdown ul:after {
             bottom: 100%;
             left: 50%;
