@@ -1,13 +1,16 @@
         .login_content {
             background-color: #393939;
+            position: relative;
+            z-index: 1;
         }
         
         .content_login_right,
         .content_register_right {
-            padding: 0px 0px;
             background-color: #231F20;
             position: absolute;
-            right: -10px;
+            right: 0;
+            top: 110px;
+            bottom: 0;
             border-radius: 24px 0px 0px 24px;
         }
         
