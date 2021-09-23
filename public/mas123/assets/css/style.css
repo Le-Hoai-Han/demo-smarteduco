@@ -113,7 +113,7 @@
         
         .nav_right {
             position: absolute;
-            right: 20px;
+            right: 100px
         }
         
         .navbar ul {
@@ -158,8 +158,9 @@
         
         .navbar .dropdown ul {
             display: block;
+            height: 300px;
             position: absolute;
-            left: 0;
+            left: 2;
             top: calc(100% + 30px);
             margin: 3px;
             padding: 10px 0;
@@ -183,8 +184,20 @@
             pointer-events: none;
             border-color: rgba(255, 255, 255, 0);
             border-bottom-color: #fff;
-            border-width: 6px;
-            margin-left: -6px;
+            border-width: 10px;
+            margin-left: -15px;
+        }
+        
+        #menu2 ul:after {
+            top: 13%;
+            left: -10px;
+            border: solid transparent 20px;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+            border-color: rgba(255, 255, 255, 0);
         }
         
         .navbar .dropdown .user {
@@ -203,9 +216,9 @@
             transition: all 0.2s ease-out;
         }
         
-        .navbar .dropdown .user:after {
+        .nav_right .dropdown ul:after {
             bottom: 100%;
-            left: 20%;
+            left: 50%;
             border: solid transparent 20px;
             content: " ";
             height: 0;
@@ -214,8 +227,8 @@
             pointer-events: none;
             border-color: rgba(255, 255, 255, 0);
             border-bottom-color: #fff;
-            border-width: 6px;
-            margin-left: -6px;
+            border-width: 10px;
+            margin-left: -15px;
         }
         
         .navbar .dropdown ul li {
@@ -229,13 +242,16 @@
         }
         
         .navbar .dropdown ul a i {
-            font-size: 12px;
+            font-size: 15px;
+            font-weight: bold;
         }
         
         .navbar .dropdown ul a:hover,
         .navbar .dropdown ul .active:hover,
-        .navbar .dropdown ul li:hover>a {
+        .navbar .dropdown ul li:hover>a,
+        .navbar .dropdown .dropdown ul li:hover>a {
             color: #e03a3c;
+            font-weight: bold;
         }
         
         .navbar .dropdown:hover>ul {
@@ -262,9 +278,10 @@
         
         .navbar .dropdown .dropdown:hover>ul {
             opacity: 1;
-            top: 0;
-            left: 100%;
+            top: -181%;
+            left: 99%;
             visibility: visible;
+            height: 300px;
             width: 400px;
         }
         

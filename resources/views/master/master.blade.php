@@ -27,6 +27,7 @@
 
     <!-- Template Main CSS File -->
     <link href="{{url('mas123')}}/assets/css/style.css" rel="stylesheet">
+    <link href="{{url('mas123')}}/assets/css/content.css" rel="stylesheet">
 
     <!-- =======================================================
   * Template Name: Presento - v3.3.0
@@ -87,7 +88,7 @@
             </button>
         </div>
     </header><!-- End Header -->
-    @yield('main')
+    
     <!-- ======= Footer ======= -->
     <footer id="footer">
         <div class="footer-top">
